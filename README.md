@@ -9,7 +9,7 @@ The tests created for a simple React form:
 
 
 
-## :paperclips: Tech stack:
+## :hammer_and_wrench: Tech stack:
 * React
 * Vanilla JS
 * CSS
