@@ -1,5 +1,4 @@
 {
   "video": false,
   "reporter": "cypress-mochawesome-reporter"
-
 }
