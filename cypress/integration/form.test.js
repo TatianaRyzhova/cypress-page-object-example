@@ -37,7 +37,7 @@ describe('Form Tests', () => {
     cy.get(onForm.getLoader()).should('not.exist');
   });
 
-  it('Email fields should have correct input type', () => {
+  it('Email field should have correct input type', () => {
     cy.get(onForm.getEmailField()).should('have.attr', 'type', 'email');
   });
 
