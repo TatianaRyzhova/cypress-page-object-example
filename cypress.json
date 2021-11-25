@@ -1,4 +1,8 @@
 {
   "video": false,
-  "reporter": "cypress-mochawesome-reporter"
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportPageTitle": "custom-title",
+    "autoOpen": true
+  }
 }
