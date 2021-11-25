@@ -58,3 +58,4 @@ cypress run --browser firefox
 
 1. Run tests in parallel 
 2. Include tests in CI
+3. Conduct snapshot testing
