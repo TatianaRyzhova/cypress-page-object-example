@@ -1,7 +1,7 @@
 {
-  "video": false,
   "reporter": "cypress-mochawesome-reporter",
   "reporterOptions": {
     "autoOpen": true
-  }
+  },
+  "projectId": "sicgvj"
 }

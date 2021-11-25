@@ -63,6 +63,7 @@ out/
 # JIRA plugin
 atlassian-ide-plugin.xml
 
+.idea
 # Cursive Clojure plugin
 .idea/replstate.xml
 
@@ -133,3 +134,4 @@ yarn-error.log*
 
 /cypress/screenshots/
 /cypress/reports/html/
+/cypress/videos/

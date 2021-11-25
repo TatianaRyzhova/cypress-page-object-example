@@ -44,6 +44,11 @@ cypress open
 cypress run
 ```
 
+3. To run tests in a specific browser please provide `browser` flag:
+```sh
+cypress run --browser firefox
+```
+
 ## :memo: Test report 
 `Mochawesome` report is automatically generated and opened in a browser, when tests are running in a headless mode.
 
@@ -52,3 +57,4 @@ cypress run
 ## :bulb: To do:
 
 1. Run tests in parallel 
+2. Include tests in CI
