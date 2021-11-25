@@ -49,7 +49,7 @@ cypress run
 cypress run --browser firefox
 ```
 
-## :memo: Test report 
+## :pencil2: Test report 
 `Mochawesome` report is automatically generated and opened in a browser, when tests are running in a headless mode.
 
 ![reportExample](https://user-images.githubusercontent.com/56598375/143496809-201bd1a2-5acf-4b65-a269-e624e32b4c3c.png)
