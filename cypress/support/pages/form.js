@@ -6,32 +6,37 @@ const LOADER = '#loader';
 
 export class Form {
 
-  getNameField() {
-    return NAME;
+  get nameField() {
+    return cy.get(NAME);
   }
 
-  getEmailField() {
-    return EMAIL;
+  get emailField() {
+    return cy.get(EMAIL);
   }
 
-  getMessageField() {
-    return MESSAGE;
+  get messageField() {
+    return cy.get(MESSAGE);
   }
 
-  getLoader() {
-    return LOADER;
+  get loader() {
+    return cy.get(LOADER);
   }
 
-  fillTheForm(name, email, message) {
-    cy.get(NAME).clear().type(name);
-    cy.get(EMAIL).clear().type(email);
-    cy.get(MESSAGE).clear().type(message);
+  visit() {
+    cy.log('Visiting main page');
+    cy.visit('/');
+    return this;
+  }
+
+  fillTheForm(data) {
+    cy.get(NAME).clear().type(data.name);
+    cy.get(EMAIL).clear().type(data.email);
+    cy.get(MESSAGE).clear().type(data.message);
   }
 
   submitTheForm() {
     cy.get(SUBMIT_BUTTON).click();
   }
-
 }
 
 export const onForm = new Form();
