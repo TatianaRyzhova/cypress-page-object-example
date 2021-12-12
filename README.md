@@ -5,7 +5,7 @@ The project presents the approximate test framework which can be used for E2E te
 
 The tests created for a simple React form:
 
-![Reactt form](https://user-images.githubusercontent.com/56598375/143472169-8e653940-4394-474f-b96d-89f283264edc.png)
+![React form](https://user-images.githubusercontent.com/56598375/143472169-8e653940-4394-474f-b96d-89f283264edc.png)
 
 
 
