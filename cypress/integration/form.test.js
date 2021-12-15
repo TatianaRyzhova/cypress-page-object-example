@@ -23,7 +23,7 @@ describe('Initial Form Tests', () => {
   });
 
   it('Email field should have correct input type', () => {
-    onForm.emailField.should('have.attr', 'type', 'email');
+    onForm.emailField.should('have.attr', 'type', 'TEST');
   });
 });
 
