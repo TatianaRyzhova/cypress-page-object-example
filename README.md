@@ -54,5 +54,6 @@ Tests are included to the continuous integration process with GitHub Actions
 
 ## :bulb: To do:
 
-1. Run tests in parallel 
-2. Conduct snapshot testing
+- [x] CI integration
+- [ ] Run tests in parallel 
+- [ ] Conduct snapshot testing
