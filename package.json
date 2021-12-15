@@ -18,10 +18,7 @@
     "eject": "react-scripts eject",
     "cypress open": "npx cypress open",
     "cypress run": "npx cypress run",
-    "cypress dashboard": "npx cypress run --record --key 1b562ee7-857e-485e-afef-2ec34dcfd21e",
-    "report": "run-s report:*",
-    "report:merge": "mochawesome-merge --reportDir cypress/results/json > cypress/results/mochawesome-bundle.json",
-    "report:generate": "marge cypress/results/mochawesome-bundle.json -o cypress/reports/html"
+    "cypress dashboard": "npx cypress run --record --key 1b562ee7-857e-485e-afef-2ec34dcfd21e"
   },
   "eslintConfig": {
     "extends": [
