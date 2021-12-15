@@ -49,13 +49,10 @@ cypress run
 cypress run --browser firefox
 ```
 
-## :pencil2: Test report 
-`Mochawesome` report is automatically generated and opened in a browser, when tests are running in a headless mode.
-
-![reportExample](https://user-images.githubusercontent.com/56598375/143496809-201bd1a2-5acf-4b65-a269-e624e32b4c3c.png)
+## :repeat: CI Integration 
+Tests are included to the continuous integration process with GitHub Actions
 
 ## :bulb: To do:
 
 1. Run tests in parallel 
-2. Include tests in CI
-3. Conduct snapshot testing
+2. Conduct snapshot testing
